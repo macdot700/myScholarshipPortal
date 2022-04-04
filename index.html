@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My scholarship application</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<div class="heading">
+    <h1>International Scholarships Application Form</h1>
+    <p>You must have an offer to study at Rework Academy before you can apply for a scholarship.</p>
+</div>
+
+<div class="step1">
+    <h5>* REQUIRED</h5>
+    <h2>ENTER YOUR PERSONAL DETAILS</h2>
+    <p>You must answer all questions for your application to be considered.</p>
+</div>
+
+<form class="schlForm">
+    <p>1. First name(s) *</p>
+    <input type="text" placeholder="Enter your answer" name="firstName" id="firstName">
+    
+    <p>2. Last name  *</p>
+    <input type="text" placeholder="Enter your answer" name="lastName" id="lastName"> <br><br>
+
+    <p>3. Age *</p>
+    
+    <select name="age" id="age">
+        <option value="">Select age range</option>
+        <option value="18Years">18 - 24 years</option>
+        <option value="25Years">25 - 30 years</option>
+        <option value="31Years">31 - 35 years</option>
+        <option value="36Years">36 - 40 years</option>
+        <option value="41Years">41 and above</option>
+    </select>
+
+    <p>4. Gender *</p>
+    <select name="gender" id="gender">
+        <option value="">Select gender</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+    </select> <br><br>
+
+    <p>5. Nationality *</p>
+    <select name="nationality" id="nationality">
+        <option value="">Select your country</option>
+        <option value="africa">Nigeria</option>
+        <option value="rWorld">Fiji</option>
+        <option value="southAmerica">Argentina</option>
+        <option value="asia">India</option>
+        <option value="northAmerica">United States of America</option>
+        <option value="africa">South Africa</option>
+        <option value="rWorld">Australia</option>
+        <option value="northAmerica">Canada</option>
+        <option value="asia">Japan</option>
+        <option value="africa">Ghana</option>
+        <option value="southAmerica">Ecuador</option>
+        <option value="asia">China</option>
+        <option value="rWorld">New Zealand</option>
+        <option value="northAmerica">Mexico</option>
+        <option value="southAmerica">Peru</option>
+        
+    </select> <br><br>
+
+    <p>6. Phone Number *</p>
+    <input type="number" placeholder="123-45-678-901" name="phoneNumber" id="phoneNumber"> <br><br>
+
+    <p>7. Most recent place of study *</p>
+    <input type="text" placeholder="Enter your answer" name="school" id="school"> <br><br>
+
+    <p>8.Qualifications: what grades did you achieve in 8 subjects? (Mathematics and English are compulsory) *</p>
+    <input type="text" id="maths" value="Mathematics" disabled>
+    <input type="number" placeholder="Grade" id="grade1" min="40" max="100"><br>
+
+    <input type="text" id="english" value="English" disabled>
+    <input type="number" placeholder="Grade" id="grade2" min="40" max="100"><br>
+
+        
+    <select name="subjects1" id="subjects1" style="width: 170px;">
+        <option value="">Select your subjects</option>
+        </select>
+        <input type="number" placeholder="Grade" id="grade3" min="40" max="100"><br>
+
+    <select name="subjects2" id="subjects2" style="width: 170px;">
+        <option value="">Select your subjects</option>
+    </select>
+    <input type="number" placeholder="Grade" id="grade4" min="40" max="100"><br>
+
+    <select name="subjects3" id="subjects3" style="width: 170px;">
+        <option value="">Select your subjects</option>
+    </select>
+    <input type="number" placeholder="Grade" id="grade5" min="40" max="100"><br>
+
+    <select name="subjects4" id="subjects4" style="width: 170px;">
+        <option value="">Select your subjects</option>
+    </select>
+    <input type="number" placeholder="Grade" id="grade6" min="40" max="100"><br>
+
+    <select name="subjects5" id="subjects5" style="width: 170px;">
+        <option value="">Select your subjects</option>
+    </select>
+    <input type="number" placeholder="Grade" id="grade7" min="40" max="100"><br>
+
+    
+    <select name="subjects6" id="subjects6" style="width: 170px;">
+        <option value="">Select your subjects</option>
+    </select>
+    <input type="number" placeholder="Grade" id="grade8" min="40" max="100"><br><br><br>
+
+    <button type="button" id="submtBtn">Submit</button>
+</form>
+
+<div>
+    <canvas id="myChart" style="width:100%;height: 400px;"></canvas>
+  </div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,8 @@
+.heading{margin: auto; width: 100%; padding-top: 10px; padding-bottom: 10px; background-color: rgb(34, 34, 185); text-align: center;}
+.heading h1{color: white; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 40px;}
+.heading p{color: white; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 20px;}
+.step1{background-image: url(.//img/istockphoto-1264296727-170667a\ \(1\).jpg); background-repeat: no-repeat; background-size: 100% 100%; height: 300px; color: red;}
+.step1 h5,h2{padding-left: 20px; padding-top: 40px;}
+.step1 p{font-size: 20px; color: black; padding-left: 20px; padding-top: 40px; font-weight: bold;}
+.schlForm{margin: auto; text-align: center; background: linear-gradient(rgb(209, 107, 230), rgb(182, 134, 62)); padding-top: 20px; padding-bottom: 20px;}
+button{background-color: maroon; color: white; width: 120px; height: 40px; border-radius: 10px; padding: 10px;}
